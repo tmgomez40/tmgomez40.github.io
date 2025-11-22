@@ -55,10 +55,23 @@ body   { background-color: var(--accent);
         background-position: right;
         margin-right: 15%
 }
-#eighthero {
-        height: 300px;
+#earlyhero2 {
+        height: 500px;
+        background-image: url(cards.jpg);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 25%;
+        background-position: left;
+        margin-left: 15%;
+        margin-top: 15%;
+        margin-bottom: 100px;
+}
+#eighthero {
+        height: 500px;
+        background-image: url(DK.jpg);
+        background-repeat: no-repeat;
+        background-size: 25%;
+        background-position: right;
+        margin-right: 15%
         
 }
 #ninteyhero {
@@ -175,6 +188,7 @@ p {
         width: 49%;
         box-sizing: border-box;
         margin-right: 1%;
+        
 }
 .row:after {
   content: "";
