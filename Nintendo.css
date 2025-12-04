@@ -17,7 +17,8 @@ body   { background-color: var(--accent);
 }
 #wrapper { 
         background-image: linear-gradient(to 
-	   bottom, #ffffff, #c7c7c7);       
+	bottom, #ffffff, #c7c7c7); 
+            
 }
 
 #indexhero {
@@ -57,12 +58,12 @@ body   { background-color: var(--accent);
 }
 #earlyhero2 {
         height: 500px;
-        background-image: url(cards.jpg);
+        background-image: url(GAW.png);
         background-repeat: no-repeat;
-        background-size: 25%;
+        background-size: 30%;
         background-position: left;
-        margin-left: 15%;
-        margin-top: 15%;
+        margin-left: 10%;
+        margin-top: 3%;
         margin-bottom: 100px;
 }
 #eighthero {
@@ -74,11 +75,69 @@ body   { background-color: var(--accent);
         margin-right: 15%
         
 }
-#ninteyhero {
-        height: 300px;
+#eighthero2 {
+        height: 500px;
+        background-image: url(NES.png);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 30%;
+        background-position: left;
+        margin-left: 10%;
+        margin-top: 3%;
+        margin-bottom: 100px;
+}
+#ninehero {
+        height: 500px;
+        background-image: url(SNES.png);
+        background-repeat: no-repeat;
+        background-size: 35%;
+        background-position: right;
+        margin-right: 10%
         
+}
+#ninehero2 {
+        height: 500px;
+        background-image: url(N64.png);
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position: left;
+        margin-left: 10%;
+        margin-top: 15%;
+}
+#zerohero {
+        height: 500px;
+        background-image: url(GC.png);
+        background-repeat: no-repeat;
+        background-size: 35%;
+        background-position: right;
+        margin-right: 10%
+        
+}
+#zerohero2 {
+        height: 500px;
+        background-image: url(Wii.png);
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position: left;
+        margin-left: 10%;
+        margin-top: 15%;
+}
+#tenhero {
+        height: 500px;
+        background-image: url(U.png);
+        background-repeat: no-repeat;
+        background-size: 35%;
+        background-position: right;
+        margin-right: 10%
+        
+}
+#tenhero2 {
+        height: 500px;
+        background-image: url(Switch.png);
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position: left;
+        margin-left: 10%;
+        margin-top: 15%;
 }
 
 h1     {
@@ -176,6 +235,7 @@ p {
         margin-left: 1%;
         margin-right: 0.5%;
         padding-bottom: 0px;
+        line-height: 45px;
 }
 .right{
         border-top-left-radius: 10%;
@@ -188,6 +248,7 @@ p {
         width: 49%;
         box-sizing: border-box;
         margin-right: 1%;
+        line-height: 45px;
         
 }
 .row:after {
